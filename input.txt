@@ -1,0 +1,6 @@
+print input
+a = input
+print a
+print integer input
+print string input
+

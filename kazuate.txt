@@ -1,0 +1,15 @@
+a = random 100
+i = 0
+while i!=100000 do
+	q = integer chomp
+	if q==a do
+		print "seikai"
+		exit
+	endif
+	if q<a do
+		print "tisai"
+	endif
+	if q>a do
+		print "ookii"
+	endif
+endwhile
